@@ -22,6 +22,7 @@ Download the repo and run <code>npm i</code>
 ## Usage
 
 Start the app using <code>node index.js</code> then answer the prompts. Your logo will appear in the examples folder.
+
 [SVG-Logo-Maker demo.webm](https://github.com/Denitrix/SVG-Logo-Maker/assets/15114255/da362cfb-6988-48a0-964f-4df1d841c4d3)
 
 ## Tests
