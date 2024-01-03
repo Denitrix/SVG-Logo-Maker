@@ -1,5 +1,6 @@
-const inquirer = reqire("inquirer");
+const inquirer = require("inquirer");
 const { writeFile } = require("fs");
+const { Circle, Square, Triangle } = require("./lib/shapes");
 
 const questions = [
   {
@@ -36,7 +37,8 @@ const questions = [
 
 const generateSVG = (shape) => {
   const SVG = `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-    ${(shape.renderShape(), shape.renderText())}
+    ${shape.renderShape()}
+    ${shape.renderText()}
   </svg>
   `;
   writeFile(`./examples/${shape.text}.svg`, SVG, (err) => {
@@ -48,3 +50,18 @@ const generateSVG = (shape) => {
   });
 };
 
+const init = () => {
+  inquirer.prompt(questions).then((answers) => {
+    let shape;
+    if (answers.shape == "circle") {
+      shape = new Circle(answers.text, answers.textColor, answers.shapeColor);
+    } else if (answers.shape == "triangle") {
+      shape = new Triangle(answers.text, answers.textColor, answers.shapeColor);
+    } else if (answers.shape == "square") {
+      shape = new Square(answers.text, answers.textColor, answers.shapeColor);
+    }
+    generateSVG(shape);
+  });
+};
+
+init();
