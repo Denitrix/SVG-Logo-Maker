@@ -1,4 +1,47 @@
-# 10 Object-oriented Programming: SVG Logo Maker
+# SVG Logo Maker
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Table of Contents
+
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+## Description
+
+An application to create simple logos using command line interface
+
+## Installation
+
+Download the repo and run <code>npm i</code>
+
+## Usage
+
+Start the app using <code>node index.js</code> then answer the prompts. Your logo will appear in the examples folder.
+[SVG Logo Maker demo](<SVG-Logo-Maker demo.webm>)
+
+## Tests
+
+A test file using Jest can be found in the lib folder.
+
+## License
+
+This application is covered under the MIT License license.
+
+    Please see here for more details (https://opensource.org/licenses/MIT).
+
+## Questions
+
+For any questions regarding this project, feel free to contact me through the following:
+
+- Email: alexmajors0613@gmail.com
+- GitHub: https://github.com/undefined
+
+<!-- # 10 Object-oriented Programming: SVG Logo Maker
 
 ## Your Task
 
@@ -57,7 +100,7 @@ node index.js
 It is recommended that you start with a directory structure that looks like the following example:
 
 ```md
-.  
+.
 ├── examples/           // Example svg file(s) created with the app
 ├── lib/                // Folder for classes or functions
     ├── shapes.js       // Exports `Triangle`, `Circle`, and `Square` classes
@@ -66,7 +109,7 @@ It is recommended that you start with a directory structure that looks like the 
 ├── .gitignore          // Indicates which folders and files Git should ignore
 ├── index.js            // Runs the application using imports from lib/
 ├── package.json
-└── README.md           // App description, link to video, setup and usage instructions           
+└── README.md           // App description, link to video, setup and usage instructions
 ```
 
 > **Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
@@ -165,3 +208,4 @@ You are required to submit the following for review:
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ -->
