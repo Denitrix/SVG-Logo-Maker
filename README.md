@@ -40,7 +40,7 @@ This application is covered under the MIT License license.
 For any questions regarding this project, feel free to contact me through the following:
 
 - Email: alexmajors0613@gmail.com
-- GitHub: https://github.com/undefined
+- GitHub: https://github.com/Denitrix
 
 <!-- # 10 Object-oriented Programming: SVG Logo Maker
 
